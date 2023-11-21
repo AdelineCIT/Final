@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Week 5\\Final_244\\Final_244\\Final_244.csproj": {}
+    "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Final\\Final\\Final_244\\Final_244\\Final_244.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Week 5\\Final_244\\Final_244\\Final_244.csproj": {
+    "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Final\\Final\\Final_244\\Final_244\\Final_244.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Week 5\\Final_244\\Final_244\\Final_244.csproj",
+        "projectUniqueName": "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Final\\Final\\Final_244\\Final_244\\Final_244.csproj",
         "projectName": "Final_244",
-        "projectPath": "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Week 5\\Final_244\\Final_244\\Final_244.csproj",
+        "projectPath": "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Final\\Final\\Final_244\\Final_244\\Final_244.csproj",
         "packagesPath": "C:\\Users\\adeli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Week 5\\Final_244\\Final_244\\obj\\",
+        "outputPath": "C:\\Users\\adeli\\OneDrive - Renton Technical College\\CSI 244 Web Development\\Final\\Final\\Final_244\\Final_244\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
